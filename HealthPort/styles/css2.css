@@ -1,0 +1,122 @@
+
+
+.imge {
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	height: 80%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+  }
+
+.wrapper{
+	max-width: 210px;
+	margin-top: -250px;
+	margin-left: 550px;
+  }
+  
+  .wrapper .search-input{
+	background: rgb(0, 143, 168);
+	width: 100%;
+	border-radius: 25px;
+	position: relative;
+	box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+  }
+  
+  .search-input input{
+	height: 55px;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	padding: 0 60px 0 20px;
+	font-size: 18px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .search-input.active input{
+	border-radius: 5px 5px 0 0;
+  }
+  
+  .search-input .autocom-box{
+	padding: 0;
+	opacity: 0;
+	pointer-events: none;
+	max-height: 280px;
+	overflow-y: auto;
+  }
+  
+  .search-input.active .autocom-box{
+	padding: 10px 8px;
+	opacity: 1;
+	pointer-events: auto;
+  }
+  
+  .autocom-box li{
+	list-style: none;
+	padding: 8px 12px;
+	display: none;
+	width: 100%;
+	/*cursor: default;*/
+	border-radius: 3px;
+  }
+  
+  .search-input.active .autocom-box li{
+	display: block;
+  }
+  .autocom-box li:hover{
+	background: #004d96;
+  }
+  
+  .search-input .icon{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 20px;
+	color: #644bff;
+	/*cursor: pointer;*/
+  }
+
+  .wrapper1{
+	max-width: 210px;
+	margin-top: -55px;
+	margin-left: 1145px;
+  }
+  
+  .wrapper1 .search-input{
+	background: rgb(0, 143, 168);
+	width: 100%;
+	border-radius: 25px;
+	position: relative;
+	box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+  }
+
+  .datee2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: -150px;
+    position: absolute;
+    color: white;
+    margin-top: -120px;
+    margin-left: -550px;
+  }
+
+  .datee3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: -150px;
+    position: absolute;
+    color: white;
+    margin-top: -120px;
+    margin-left: 100px;
+  }

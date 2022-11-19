@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    width: 100%;
+    position: relative;
+    background: #7783a3;
+    color: white;
+    font-family:'Ubuntu', sans-serif ;
+    
+  }
+  
+  .topic{
+    width: 100%;
+    min-height: calc(10vh - 120px);
+    height: auto;
+    margin-top: 60px;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  
+  }
+  
+  .fcont{
+    width: 50%;
+  }
+  
+  .heading{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgba(0, 195, 255, 0.904);
+  }
+  .highlight{
+    color: white;
+  }
+  
+  .sub{
+    width: fit-content;
+    display: block;
+    margin-left: 40px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  .button-two {
+    border-radius: 4px;
+    margin-left: 80px;
+    background-color:rgba(0, 195, 255, 0.904);
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  
+  
+  .button-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-two span:after {
+    content: '»';
+    column-width: 15px;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-two:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-two:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .hidden {
+
+    display: none;
+    margin-top: 50px;
+    margin-left: 100px;
+  
+  }
+  .goback{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
